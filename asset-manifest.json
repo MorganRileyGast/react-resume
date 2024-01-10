@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2852326.css",
+    "main.js": "/static/js/main.1fea747f.js",
+    "static/media/tyler-nix-unsplash.jpg": "/static/media/tyler-nix-unsplash.01c40c330929ddec70aa.jpg",
+    "static/media/kate-macate-unsplash.jpg": "/static/media/kate-macate-unsplash.389d3e2506e11abbda3c.jpg",
+    "static/media/Background.png": "/static/media/Background.1c2914945b742e5abe1e.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/Profile.png": "/static/media/Profile.9382504ef9eb9e0be139.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/HolyCrow.png": "/static/media/HolyCrow.83399decd115a5d47266.png",
+    "index.html": "/index.html",
+    "main.d2852326.css.map": "/static/css/main.d2852326.css.map",
+    "main.1fea747f.js.map": "/static/js/main.1fea747f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2852326.css",
+    "static/js/main.1fea747f.js"
+  ]
+}
