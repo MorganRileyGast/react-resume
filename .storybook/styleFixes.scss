@@ -1,0 +1,5 @@
+/* Used to fix styles from base.scss that we don't want applied to Storybook */
+body {
+    background-color: transparent;
+    background-image: none;
+}

@@ -1,0 +1,353 @@
+{
+    "SKILLS": [
+        {
+            "title": "Design Philosophy",
+            "id": "design",
+            "details": [
+                {
+                    "text": "Use agile methodology to ensure quick adjustments and provide a better end product",
+                    "highlight": "agile methodology",
+                    "id": "agile"
+                },
+                {
+                    "text": "Create wireframes and mockups to share ideas before starting development to get a clear picture and reduce reworking in the middle of a ticket",
+                    "highlight": "wireframes and mockups",
+                    "id": "wireframes"
+                },
+                {
+                    "text": "Take the end-user's experience into account for each decision to ensure the highest quality results that maximize the user's satisfaction",
+                    "highlight": "end-user's experience",
+                    "id": "ux"
+                },
+                {
+                    "text": "Colors should be WCAG compliant (Web Content Accessibility Guidelines), both AA (minimum contrast) and AAA (enhanced contrast) to optimize accessibility",
+                    "highlight": "WCAG compliant",
+                    "id": "wcag"
+                },
+                {
+                    "text": "Fetch data from a REST API to keep the front and back-end concerns from overlapping",
+                    "highlight": "REST API",
+                    "id": "rest"
+                },
+                {
+                    "text": "Keep one-off code to a minimum, while focusing on creating reusable components that can be leveraged across the application",
+                    "highlight": "reusable components",
+                    "id": "components"
+                },
+                {
+                    "text": "Use HTML elements for their intended purpose to benefit from the built-in accessibility features",
+                    "highlight": "HTML elements",
+                    "id": "html"
+                },
+                {
+                    "text": "Ensure high coverage in unit tests so we can be confident in the quality of the code and catch bugs early",
+                    "highlight": "high coverage in unit tests",
+                    "id": "tests"
+                },
+                {
+                    "text": "Use spikes to help identify the requirements of a task so there are less unknowns when the work actually starts",
+                    "highlight": "identify the requirements",
+                    "id": "requirements"
+                },
+                {
+                    "text": "Write each line of code with purpose so that there are no unnecessary blocks that make maintaining the codebase harder over time",
+                    "highlight": "no unnecessary blocks",
+                    "id": "necessary"
+                },
+                {
+                    "text": "Share discoveries with the rest of the team so everybody can learn new concepts together and grow into a more effective unit",
+                    "highlight": "Share discoveries",
+                    "id": "discoveries"
+                },
+                {
+                    "text": "Set up a component library (such as Storybook) so other developers can see existing components to use or modify instead of writing new ones",
+                    "highlight": "component library",
+                    "id": "library"
+                },
+                {
+                    "text": "Write self-documenting code and comments to make it easy for other developers to touch your code in the future, and create a documentation page for more complex code",
+                    "highlight": "self-documenting code",
+                    "id": "documenting"
+                }
+            ]
+        },
+        {
+            "title": "Familiar Tools",
+            "id": "tools",
+            "details": [
+                {
+                    "text": "Source control software (Git) with a central repository such as Github, Stash, Bitbucket, etc. for code management",
+                    "highlight": "Source control",
+                    "id": "source"
+                },
+                {
+                    "text": "Expert with ES6+ JavaScript and TypeScript syntax",
+                    "highlight": "ES6+ JavaScript and TypeScript",
+                    "id": "syntax"
+                },
+                {
+                    "text": "SPAs using JavaScript frameworks such as React and Angular to reduce loading times and ease the stress on company servers",
+                    "highlight": "JavaScript frameworks",
+                    "id": "frameworks"
+                },
+                {
+                    "text": "Webpack configs to add and manage SPA features",
+                    "highlight": "Webpack configs",
+                    "id": "webpack"
+                },
+                {
+                    "text": "Skilled with using NPM to pull in, update, or remove packages",
+                    "highlight": "NPM",
+                    "id": "npm"
+                },
+                {
+                    "text": "Leverages Docker containers to simulate interconnected systems and API calls",
+                    "highlight": "Docker containers",
+                    "id": "docker"
+                },
+                {
+                    "text": "Ticket management using tools such as Jira or Asana to keep track of active and upcoming tasks",
+                    "highlight": "Ticket management",
+                    "id": "tickets"
+                },
+                {
+                    "text": "Continuous integration using systems such as Jenkins or TravisCI",
+                    "highlight": "Continuous integration",
+                    "id": "integration"
+                },
+                {
+                    "text": "Unit tests run using Jest or Jasmine to ensure quality and high coverage of code",
+                    "highlight": "Unit tests",
+                    "id": "tests"
+                },
+                {
+                    "text": "Remote collaboration using tools such as Slack, Zoom, and email",
+                    "highlight": "Remote collaboration",
+                    "id": "remote"
+                },
+                {
+                    "text": "Uses Storybook as a component library to prevent redundant code, while also making it easier to develop and test different component states",
+                    "highlight": "Storybook",
+                    "id": "storybook"
+                },
+                {
+                    "text": "CSS frameworks such as Bootstrap or Bulma to ensure responsive layouts and consistent styles across the application",
+                    "highlight": "CSS frameworks",
+                    "id": "css"
+                },
+                {
+                    "text": "SCSS syntax to add powerful programmatic approaches to stylesheet development",
+                    "highlight": "SCSS syntax",
+                    "id": "scss"
+                },
+                {
+                    "text": "Played around with Penpot to create UX/UI Designs to share my visions with the team",
+                    "highlight": "Penpot to create UX/UI Designs",
+                    "id": "penpot"
+                },
+                {
+                    "text": "All the major operating systems (Windows, Mac, and Linux)",
+                    "highlight": "operating systems",
+                    "id": "os"
+                }
+            ]
+        }
+    ],
+    "WORK": [
+        {
+            "title": "Web Software Engineer",
+            "id": "engineer",
+            "details": [
+                {
+                    "text": "Mednet Solutions, June 2019 - June 2023",
+                    "highlight": "June 2019 - June 2023",
+                    "id": "mednet"
+                },
+                {
+                    "text": "Managed the codebase by updating NPM packages, ensured 95% or higher unit test coverage, maintained the Webpack configuration file, participated in code reviews to promote product quality, created a component library using Storybook, and defined strict linting rules",
+                    "highlight": "Managed the codebase",
+                    "id": "codebase"
+                },
+                {
+                    "text": "Mentored developers of all levels, including team leaders, in many aspects of the front-end tech stack, standards, and methodologies",
+                    "highlight": "Mentored developers of all levels",
+                    "id": "mentor"
+                },
+                {
+                    "text": "Created new React SPAs to refactor and replace outdated sections of a PHP monolith, interacting with the REST APIs to ensure proper encapsulation of the front and back-end standards",
+                    "highlight": "Created new React SPAs",
+                    "id": "create"
+                },
+                {
+                    "text": "Collaborated with the team to determine when client-side or server-side solutions would be best, shared wireframes and mockups to prioritize the end-user’s overall experience and accessibility, and to share discoveries",
+                    "highlight": "Collaborated with the team",
+                    "id": "collaborate"
+                }
+            ]
+        },
+        {
+            "title": "Development Engineer Intern",
+            "id": "intern",
+            "details": [
+                {
+                    "text": "Cambria, April 2018 - October 2018",
+                    "highlight": "April 2018 - October 2018",
+                    "id": "cambria"
+                },
+                {
+                    "text": "Personally took on the creation and maintenance of the front-end for an internal tool to store and manage product patterns and matching machine configurations using Typescript and AngularJS",
+                    "highlight": "took on the creation and maintenance of the front-end",
+                    "id": "tool"
+                },
+                {
+                    "text": "Collected data from REST APIs across the company to create a data visualization dashboard for management to detect potential pain points before issues arose",
+                    "highlight": "create a data visualization dashboard",
+                    "id": "dashboard"
+                }
+            ]
+        },
+        {
+            "title": "Grading Assistant",
+            "id": "grade",
+            "details": [
+                {
+                    "text": "Concordia University, St. Paul, March 2017 - June 2017",
+                    "highlight": "March 2017 - June 2017",
+                    "id": "concordia"
+                },
+                {
+                    "text": "CSC225, Object-Oriented Programming, Prof. Haythem Balti",
+                    "highlight": "Object-Oriented Programming",
+                    "id": "oop"
+                },
+                {
+                    "text": "Developed a manual grading system for over 30 students, which was approved by the professor, to ensure fair credit and feedback for improvement and further reading, as well as where and why points were lost",
+                    "highlight": "Developed a manual grading system",
+                    "id": "system"
+                }
+            ]
+        }
+    ],
+    "EDUCATION": [
+        {
+            "title": "Concordia University, St. Paul",
+            "id": "concordia",
+            "details": [
+                {
+                    "text": "September 2015 - June 2018",
+                    "highlight": "September 2015 - June 2018",
+                    "id": "dates"
+                },
+                {
+                    "text": "Graduated with a B.S. of Computer Science",
+                    "highlight": "B.S. of Computer Science",
+                    "id": "degree"
+                },
+                {
+                    "text": "Graduated Summa Cum Laude",
+                    "highlight": "Summa Cum Laude",
+                    "id": "honors"
+                },
+                {
+                    "text": "GPA of 3.78",
+                    "highlight": "3.78",
+                    "id": "gpa"
+                },
+                {
+                    "text": "Group leader in Programming and Problem Solving",
+                    "highlight": "Group leader",
+                    "id": "group-leader"
+                },
+                {
+                    "text": "Lead programmer in Object-Oriented Programming and in Modern Web Design",
+                    "highlight": "Lead programmer",
+                    "id": "lead-programmer"
+                }
+            ]
+        },
+        {
+            "title": "Normandale Community College",
+            "id": "normandale",
+            "details": [
+                {
+                    "text": "August 2012 - May 2015",
+                    "highlight": "August 2012 - May 2015",
+                    "id": "dates"
+                },
+                {
+                    "text": "Transferred to Concordia University, St. Paul",
+                    "highlight": "Transferred",
+                    "id": "transfer"
+                },
+                {
+                    "text": "GPA of 3.73",
+                    "highlight": "3.73",
+                    "id": "gpa"
+                },
+                {
+                    "text": "Member of Phi Theta Kappa Honor Society",
+                    "highlight": "Phi Theta Kappa",
+                    "id": "honors"
+                }
+            ]
+        }
+    ],
+    "CROWS": [
+        {
+            "title": "Alternatively, stick around and enjoy some of my favorite crow facts!",
+            "id": "crows",
+            "details": [
+                {
+                    "text": "They have the largest brain to body ratio of all birds, and the anatomy of their brain is similar to that of humans. This results in intelligence that rivals our own",
+                    "highlight": "largest brain to body ratio of all birds",
+                    "id": "brain"
+                },
+                {
+                    "text": "Crows are one of the most resourceful creatures, able to use or create their own tools such as knives or hooks, even if they've never encountered them before",
+                    "highlight": "able to use or create their own tools",
+                    "id": "tools"
+                },
+                {
+                    "text": "Some types of crow have discovered unique methods to crack nuts. If there's a road nearby, they'll place the nut so a car will run it over, then collect their food after the light turns red. If no cars are nearby, they'll fly just high enough and drop it, letting gravity do the hard work",
+                    "highlight": "discovered unique methods to crack nuts",
+                    "id": "nuts"
+                },
+                {
+                    "text": "They have discovered that they can use breadcrumbs for fishing",
+                    "highlight": "use breadcrumbs for fishing",
+                    "id": "fishing"
+                },
+                {
+                    "text": "Crows are better at mimicry than parrots, and use it to lure wolves to a dead animal so it can tear the thick skin to feast, and once the wolf is full, it will pick at the remains",
+                    "highlight": "better at mimicry than parrots",
+                    "id": "mimic"
+                },
+                {
+                    "text": "Different communities of crows have unique dialects to tell outsiders from the pack",
+                    "highlight": "communities of crows have unique dialects",
+                    "id": "dialect"
+                },
+                {
+                    "text": "They communicate details so well that several generations later, the flock is able to recognize individual humans they never met based purely on what they were told by the older crows",
+                    "highlight": "communicate details so well",
+                    "id": "communication"
+                },
+                {
+                    "text": "Crows are able to accurately judge a human's character by their expression, and with enough trust they will bond and share their treasures",
+                    "highlight": "accurately judge a human's character by their expression",
+                    "id": "judge"
+                },
+                {
+                    "text": "They hold funerals for their dead",
+                    "highlight": "hold funerals",
+                    "id": "funerals"
+                },
+                {
+                    "text": "Crows choose a mate for life. Even though they reach sexual maturity after 2 years, they often wait until they find the perfect partner",
+                    "highlight": "mate for life",
+                    "id": "partner"
+                }
+            ]
+        }
+    ]
+}

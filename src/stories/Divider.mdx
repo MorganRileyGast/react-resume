@@ -1,0 +1,10 @@
+import { Canvas, Meta} from '@storybook/blocks';
+import * as DividerStories from './Divider.stories'
+
+<Meta of={DividerStories} />
+
+# Divider
+A responsive divider bar used to separate vertical elements. On larger screens, it should only be half the screen width, but on smaller screens, it
+grows to take up three-quarters of the screen and be centered.
+
+<Canvas of={DividerStories.Default} />

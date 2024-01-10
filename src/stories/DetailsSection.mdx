@@ -1,0 +1,24 @@
+import { Canvas, Meta} from '@storybook/blocks';
+import * as DetailsSectionStories from './DetailsSection.stories'
+
+<Meta of={DetailsSectionStories} />
+
+# Details Section
+The details section component creates a bulletpoint list from an array of objects and highlights specific portions of them. The object
+has a `title` attribute it uses for the label, and then it has a `details` attribute that acts as an array of object to create the points.
+
+Each object in the `details` array has a `text` attribute for the raw string, and then it uses the `react-string-replace` npm package to replace
+a substring with a span element (styled with a SCSS class) wrapping the matching value from the `highlight` attibute.
+
+For an example, the data used in the story below uses an object that looks like this:
+```js
+{
+    title: 'Example',
+    details: [
+        { text: 'Hello, World!', highlight: 'Hello' },
+        { text: 'foobar', highlight: 'foo' },
+    ],
+}
+```
+
+<Canvas of={DetailsSectionStories.WithData} />

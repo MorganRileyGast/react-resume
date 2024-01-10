@@ -1,0 +1,40 @@
+/* Adjust classes imported from style framework */
+.nav-link,
+.navbar-brand {
+    color: white !important;
+    &:hover {
+        color: $primary !important;
+    }
+    &.active {
+        color: $primary-light !important;
+    }
+}
+
+a {
+    color: $primary-extra-dark;
+    font-weight: 600;
+    &:hover {
+        color: $primary-dark;
+    }
+}
+
+.btn-link {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: $primary-extra-dark;
+    &:hover {
+        color: $primary-dark;
+    }
+    position: relative;
+    bottom: 2px;
+
+    @media (min-width: map-get($breakpoints, xs)) {
+        font-size: 14pt;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        font-size: 16pt;
+    }
+}

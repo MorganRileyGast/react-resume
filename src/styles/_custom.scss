@@ -1,0 +1,200 @@
+/* One-off classes written for specific elements */
+html {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+body {
+    width: 100%;
+    display: table-cell;
+    background-color: $primary-extra-light;
+    background: url(../assets/Background.png) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: repeat-y; // full-page screenshots fix
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+
+    @media (min-width: map-get($breakpoints, xs)) {
+        font-size: 30pt;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        font-size: 40pt;
+    }
+
+    @media (min-width: map-get($breakpoints, lg)) {
+        font-size: 50pt;
+    }
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+
+    @media (min-width: map-get($breakpoints, xs)) {
+        font-size: 20pt;
+        position: relative;
+        left: .1875rem;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        font-size: 26pt;
+    }
+
+    @media (min-width: map-get($breakpoints, lg)) {
+        font-size: 30pt;
+    }
+}
+
+p, .accomplishment-list li {
+    line-height: 150%;
+    max-width: 70ch;
+
+    &:first-of-type {
+        margin-top: calc($gap/2);
+    }
+
+    @media (min-width: map-get($breakpoints, xs)) {
+        font-size: 16pt;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        font-size: 20pt;
+    }
+
+    @media (min-width: map-get($breakpoints, lg)) {
+        font-size: 22pt;
+    }
+}
+
+li {
+    @media (min-width: map-get($breakpoints, xs)) {
+        font-size: 14pt;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        font-size: 16pt;
+    }
+}
+
+.content-wrapper {
+    padding: .625rem;
+}
+
+.container {
+    @media (min-width: map-get($breakpoints, md)) {
+        margin-left: calc($gap/2);
+        margin-right: 0;
+    }
+}
+
+.horizontal-stack {
+    @media (min-width: map-get($breakpoints, md)) {
+        display: flex;
+    }
+}
+
+.vertical-stack {
+    @media (max-width: map-get($breakpoints, md)) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.vertical-stack-center {
+    @media (max-width: map-get($breakpoints, md)) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.profile {
+    height: 12.5rem;
+    width: 12.5rem;
+    border: 5px solid $primary-dark;
+    border-radius: 150px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.75);
+
+    @media (min-width: map-get($breakpoints, md)) {
+        margin-top: calc($gap*2);
+        margin-left: calc($gap*2);
+    }
+
+    @media (max-width: map-get($breakpoints, md)) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.stack-text {
+    @media (min-width: map-get($breakpoints, md)) {
+        margin-top: 6.25rem;
+        margin-left: 1.875rem;
+    }
+}
+
+.picture {
+    width: 18.75rem;
+    border: 5px solid $primary-dark;
+}
+
+.holy-crow {
+    border-radius: 20px;
+
+    @media (min-width: map-get($breakpoints, xs)) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20rem;
+        aspect-ratio: 1 / 1;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        width: 25rem;
+        aspect-ratio: 2 / 1;
+    }
+
+    @media (min-width: map-get($breakpoints, lg)) {
+        width: 40rem;
+        aspect-ratio: 2 / 1;
+    }
+}
+
+.divider-box {
+    @media (min-width: map-get($breakpoints, xs)) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        margin-top: $gap;
+        margin-left: calc($gap/2);
+        display: block;
+    }
+}
+
+.divider {
+    height: .3125rem;
+    background-color: $background-dark;
+    border-radius: 20px;
+
+    @media (min-width: map-get($breakpoints, xs)) {
+        width: 75%;
+    }
+
+    @media (min-width: map-get($breakpoints, md)) {
+        width: 50%;
+    }
+}

@@ -1,0 +1,11 @@
+import { Canvas, Meta} from '@storybook/blocks';
+import * as PictureDetailStories from './PictureDetails.stories'
+
+<Meta of={PictureDetailStories} />
+
+# Picture Details
+The picture details component creates a responsive layout with an image to the left (generated with the `pictureInfo` prop passed an object containing a `path` attribute
+containing a string of the file path, an `alt` attribute string to be used as the image alt text, and a `classes` string that applies styling to the img tag) and renders the
+child elements to the right for bigger screens, or beneath when viewed on small screens.
+
+<Canvas of={PictureDetailStories.WithData} />

@@ -1,0 +1,65 @@
+/* Variables to override imported style framework, or for reusable values in custom classes */
+$primary: #cbbee4;
+$primary-light: #ebc8f3;
+$primary-extra-light: #f9eafc;
+$primary-dark: #7b60ba;
+$primary-extra-dark: #3d00a0;
+$background-dark: #212529;
+
+$colors: (
+    'primary': $primary,
+    'primary-light': $primary-light,
+    'primary-extra-light': $primary-extra-light,
+    'primary-dark': $primary-dark,
+    'primary-extra-dark': $primary-extra-dark,
+);
+
+$gap: 2rem;
+$directions: (
+    'top',
+    'bottom',
+    'left',
+    'right',
+);
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$fontWeights: (
+  100,
+  200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  800,
+  900,
+);
+
+$spacings: (
+  'margin',
+  'padding',
+);
+
+$sizes: (
+  'no': 0,
+  'eighth': calc($gap/8),
+  'quarter': calc($gap/4),
+  'half': calc($gap/2),
+  'whole': $gap,
+  'double': calc($gap*2),
+  'quad': calc($gap*4),
+);
+
+$responsiveness: (
+  'normal': 0,
+  'responsive-big': 'min',
+  'responsive-small': 'max',
+);

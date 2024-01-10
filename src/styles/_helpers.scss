@@ -1,0 +1,77 @@
+/* Generic classes that can be reused for different types of elements */
+@each $name, $shade in $colors {
+    .has-text-#{$name} {
+        color: $shade !important;
+    }
+
+    .has-background-#{$name} {
+        background-color: $shade !important;
+    }
+}
+
+@each $type, $responsive in $responsiveness {
+    @each $sizeName, $size in $sizes {
+        @each $spacing in $spacings {
+            @if #{$type} == 'normal' {
+                .has-#{$sizeName}-#{$spacing} {
+                    #{$spacing}: $size !important;
+                }
+
+                .has-#{$sizeName}-#{$spacing}-horizontal {
+                    #{$spacing}-left: $size !important;
+                    #{$spacing}-right: $size !important;
+                }
+
+                .has-#{$sizeName}-#{$spacing}-vertical {
+                    #{$spacing}-top: $size !important;
+                    #{$spacing}-bottom: $size !important;
+                }
+
+                @each $direction in $directions {
+                    .has-#{$sizeName}-#{$spacing}-#{$direction} {
+                        #{$spacing}-#{$direction}: $size !important;
+                    }
+                }
+            }
+            @else {
+                .has-#{$sizeName}-#{$spacing}-#{$type} {
+                    @media (#{$responsive}-width: map-get($breakpoints, md)) {
+                        #{$spacing}: $size !important;
+                    }
+                }
+
+                .has-#{$sizeName}-#{$spacing}-horizontal-#{$type} {
+                    @media (#{$responsive}-width: map-get($breakpoints, md)) {
+                        #{$spacing}-left: $size !important;
+                        #{$spacing}-right: $size !important;
+                    }
+                }
+
+                .has-#{$sizeName}-#{$spacing}-vertical-#{$type} {
+                    @media (#{$responsive}-width: map-get($breakpoints, md)) {
+                        #{$spacing}-top: $size !important;
+                        #{$spacing}-bottom: $size !important;
+                    }
+                }
+
+                @each $direction in $directions {
+                    .has-#{$sizeName}-#{$spacing}-#{$direction}-#{$type} {
+                        @media (#{$responsive}-width: map-get($breakpoints, md)) {
+                            #{$spacing}-#{$direction}: $size !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@each $weight in $fontWeights {
+    .has-weight-#{$weight} {
+        font-weight: $weight !important;
+    }
+}
+
+.header-text {
+    font-family: 'Times New Roman', Times, serif !important;
+}
