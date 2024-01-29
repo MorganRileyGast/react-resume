@@ -1,10 +1,10 @@
 import React from 'react';
-import Hands from '../assets/tyler-nix-unsplash.jpg';
+import ThankYou from '../assets/ThankYou.png';
 import { PictureDetails } from './PictureDetails.component';
 
 export function CreditsPage() {
     return (
-        <PictureDetails pictureInfo={{ path: Hands, alt: 'Hands forming a heart shape', classes: 'picture' }}>
+        <PictureDetails pictureInfo={{ path: ThankYou, alt: 'Hands forming a heart shape', classes: 'picture' }}>
             <div>
                 <h2 className="header-text">Special thanks to</h2>
                 <ul>
@@ -13,13 +13,7 @@ export function CreditsPage() {
                             Freepik
                         </a>
                         {' '}
-                        for providing the background image and giving edit permission to users
-                        like me
-                    </li>
-                    <li>
-                        <a href="https://unsplash.com/photos/person-forming-heart-with-their-hands-sitjgGsVIAs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Nix</a>
-                        {' '}
-                        for providing the image of the hands used on this page
+                        for providing the background image
                     </li>
                     <li>
                         <a href="https://unsplash.com/photos/white-paper-and-brown-envelope-xmddEHyCisc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kate Macate</a>
